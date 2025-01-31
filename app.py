@@ -390,7 +390,7 @@ async def raid_bot_menu():
 async def on_ready():
     clear_console()
     print_violet(f"Bot connecté en tant que {client.user}")
-    await client.change_presence(activity=discord.Game(name="github.com/kzoxmazpx/RaidBot"))
+    await client.change_presence(activity=discord.Game(name="github.com/kzoxofficiel/RaidBot"))
     await main_menu()
 
 def print_violet(text):
